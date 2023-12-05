@@ -31,11 +31,11 @@
                     <div class="flex space-x-5">
                         <div>
                             <label for="month" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Mois</label>
-                            <input type="text" id="month" name='month' class="bg-transparent border border-blue-600 text-white text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="07" required>
+                            <input type="number" id="month" name='month' class="bg-transparent border border-blue-600 text-white text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="07" required>
                         </div>
                         <div>
                             <label for="year" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Année</label>
-                            <input type="text" id="year" name="year" class="bg-transparent border border-blue-600 text-white text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="2007" required>
+                            <input type="number" id="year" name="year" class="bg-transparent border border-blue-600 text-white text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="2007" required>
                         </div>
                     </div>
                     <button type='submit' class='duration-200 bg-blue-400 text-white hover:bg-blue-600 px-3 py-2 w-full rounded-full text-sm font-medium focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-offset-2 focus:ring-offset-blue-300'>C'est parti !</button>
