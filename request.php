@@ -10,7 +10,7 @@
 </head>
 <body class="bg-gradient-to-r from-cyan-500 to-blue-500 flex justify-center mt-52 overflow-hidden">
     <div class="absolute bottom-[-50px]">
-        <svg width="2000" height="685" viewBox="0 0 1440 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg width="2500" height="729" viewBox="0 0 1440 420" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M0 95C130.028 -21.617 323.901 -31.4098 465.018 71.5112L498.852 96.1871C638.906 198.333 827.203 204.363 973.505 111.387L978.795 108.025C1089.22 37.8476 1225.56 21.6481 1349.36 63.9947L1440 95V420H0V95Z" fill="url(#paint0_linear_1_25)"/>
             <defs>
                 <linearGradient id="paint0_linear_1_25" x1="720" y1="-105" x2="720" y2="420" gradientUnits="userSpaceOnUse">
@@ -120,7 +120,7 @@
                                     <span class='h-7 w-7 justify-center items-center text-center text-white flex bg-blue-500 rounded-full m-2'>
                                         $i
                                     </span>
-                                  </div>
+                          </div>
                                   ");
                 }
 
@@ -135,7 +135,7 @@
                 ?>
             </div>
 
-            <div class="flex justify-center space-x-5 w-full mt-4">
+            <div class="flex justify-center space-x-5 w-full my-4">
                 <form action="request.php" method="post">
                     <div>
                         <?php
